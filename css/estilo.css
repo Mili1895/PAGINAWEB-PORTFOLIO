@@ -1,0 +1,230 @@
+/*Diseño de index principal*/
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {                                                               
+    background-image: url(https://wallpapercave.com/wp/wp2847706.jpg);
+    background-position: center;
+    background-size:auto;
+}
+/*Diseño de texto de presentacion de index principal*/
+body p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    color: white;
+    margin-top: -550px;
+    margin-left: 500px;
+}
+body .Gif {
+    margin-left: 250px;
+    margin-top: 25px;
+    width: 550px;
+} 
+/*Diseño de header general*/
+header {
+    background-size: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+/*Diseño de links a otras paginas secundarias*/
+nav ul {
+    display: flex;
+    padding: 10px;
+    list-style: none;
+    margin-right: 100px;
+}
+/*Diseño de los links de las paginas secundarias*/
+.pagina:hover  {
+    color:darkseagreen;
+} 
+
+nav ul .pagina {
+    padding: 10px;
+    color: floralwhite;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    
+}
+/*Diseño video de presentacion*/
+body video {
+    margin-top: 170px;
+    margin-left: 900px;
+}
+
+/*Diseño footer*/
+.iconos {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px;
+}
+/*PROYECTOS*/
+/*Carrusel de imagenes*/
+.contenedor {
+    margin: auto;
+    width: 500px;
+    padding: 100px;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+}
+
+ul.deslizador {
+    position: relative;
+    width: 500px;
+    height: 700px;
+}
+
+ul.deslizador li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+}
+
+ul.deslizador li img {
+    width: 500px;
+    height: 700px;
+    padding-top: 5px;
+}
+ul.deslizador li:first-child {
+    opacity: 1;
+}
+ul.deslizador li:target {
+    opacity: 1;
+}
+.menu {
+    text-align: center;
+    margin: 20px;
+}
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+.menu li a {
+    display: inline-block;
+    color: darkred;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-color: white;
+}
+/*CONTACTOS*/
+/*Diseño de opinion*/
+body .opinion {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    
+}
+body .opinion h2 {
+    color: floralwhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+/*Diseño de casilla nombre*/
+body .Nombres form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+.Nombres label {
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: floralwhite;
+    padding-right: 15px;
+}
+.Nombres input {
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    border-color: white;
+}
+
+/*Diseño de casilla Apellidos*/
+body .Apellidos form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.Apellidos label {
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: floralwhite;
+    padding-right: 15px;
+}
+.Apellidos input {
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    border-color: white;
+}
+
+/*Diseño de Dejar Comentario*/
+body .Comentario form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    margin-right: -10px;
+    margin-top: -60px;
+}
+.Comentario textarea {
+    border-color: white;
+    border-radius: 15px;
+}
+
+/*Diseño de botones Deshacer y Enviar*/
+body .boton  {
+    display: flex;
+    justify-content: center;
+}
+.boton .Deshacer {
+    background-color: floralwhite;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkred;
+    border-radius: 10px;
+    border-color: white;
+    padding: 10px 20px;
+    margin-right: 170px;
+    margin-top: 250px;
+    margin-left: -400px;
+}
+.boton .Enviar {
+    background-color: floralwhite;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkred;
+    border-radius: 10px;
+    border-color: white;
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-top: 250px;
+}
+
+
+
+
