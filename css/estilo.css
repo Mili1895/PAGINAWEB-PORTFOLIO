@@ -67,6 +67,32 @@ body video {
     justify-content: space-evenly;
     padding: 80px;
 }
+
+/*BRANDING*/
+/*Diseño de gifs*/
+body .imagen {
+    display: flex;
+    align-items: center;
+    margin-top: 13%;
+    margin-left: 17%;
+}
+
+body .enlaceDos{
+   margin-left: 5%;
+}
+
+/*3D*/
+/* Diseño de fotos*/
+body .foto{
+    display: flex;
+    align-items: center;
+    margin-top: 13%;
+    margin-left: 30%;
+}
+body .fotoDos{
+    margin-left: 5%;
+}
+ 
 /*PROYECTOS*/
 /*Carrusel de imagenes*/
 .contenedor {
